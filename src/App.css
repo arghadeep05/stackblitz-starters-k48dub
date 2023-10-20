@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: #ccddff;
+}
+
+.app {
+  text-align: center;
+}
+.container {
+  background-color: rgb(209, 207, 236);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+input[tpe='text'],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  width: 15%;
+  background-color: rgb(13, 202, 54);
+  color: burlywood;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  size: small;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rosybrown;
+}
+.header {
+  width: 100%;
+  background-color: 12px 20px;
+  color: burlywood;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.List-heading {
+  color: rgb(15, 14, 14);
+  text-align: left;
+  width: 60%;
+  background-color: 12px 20px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.listData {
+  color: rgb(15, 14, 14);
+  text-align: left;
+  width: 53%;
+  padding-left: 30%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 2%;
+  background-color: rgb(106, 106, 245);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-position {
+  position: relative;
+  left: 11%;
+  top: -54px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
